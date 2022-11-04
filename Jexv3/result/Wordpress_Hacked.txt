@@ -1,0 +1,152 @@
+http://renuevo.com/wp-login.php
+ Username: renuevodeplenitud
+ Password: admin
+-----------------------------------------
+http://renuevo.com/wp-login.php
+ Username: renuevodeplenitud
+ Password: forget
+-----------------------------------------
+http://renuevo.com/wp-login.php
+ Username: renuevodeplenitud
+ Password: forgot
+-----------------------------------------
+http://renuevo.com/wp-login.php
+ Username: renuevodeplenitud
+ Password: pass
+-----------------------------------------
+http://renuevo.com/wp-login.php
+ Username: renuevodeplenitud
+ Password: gatau
+-----------------------------------------
+http://renuevo.com/wp-login.php
+ Username: renuevodeplenitud
+ Password: ADMIN
+-----------------------------------------
+http://renuevo.com/wp-login.php
+ Username: renuevodeplenitud
+ Password: hello
+-----------------------------------------
+http://renuevo.com/wp-login.php
+ Username: renuevodeplenitud
+ Password: sysadmin
+-----------------------------------------
+http://renuevo.com/wp-login.php
+ Username: renuevodeplenitud
+ Password: loginaja
+-----------------------------------------
+http://renuevo.com/wp-login.php
+ Username: renuevodeplenitud
+ Password: adminaccess
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: forgot
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: gatau
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: adminaccess
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: hello
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: loginaja
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: sysadmin
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: heker
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: admin
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: f*uckyou
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: FuckYou
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: free123
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: freepass
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: lupa
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: admin@123
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: f*uckyou!
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: login123
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: pass
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: fuckyou!
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: login
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: F*uckYou
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: ADMIN
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: f*uckyou!@
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: f*uckYoU
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: motherfucker123
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: bebas
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: forget
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: fuckyou
+-----------------------------------------
+http://harmonyxlpro.com/wp-login.php
+ Username: haruser
+ Password: motherfucker1
+-----------------------------------------

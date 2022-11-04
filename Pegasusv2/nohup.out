@@ -1,0 +1,17 @@
+sh: 1: title: not found
+[H[2J[3J
+
+  _____                               ______       __      _____  
+ |  __ \         PEGASUSEXPOIT V2    |  ____|      \ \    / /__ \ 
+ | |__) |__  __ _  __ _ ___ _   _ ___| |__  __  __  \ \  / /   ) |
+ |  ___/ _ \/ _` |/ _` / __| | | / __|  __| \ \/ /   \ \/ /   / / 
+ | |  |  __/ (_| | (_| \__ \ |_| \__ \ |____ >  <     \  /   / /_ 
+ |_|   \___|\__, |\__,_|___/\__,_|___/______/_/\_\     \/   |____|
+             __/ |     Best High Wordpress Domain Quality Exploit                    
+            |___/      Copied By : @killo_trojanz                                      
+                       Turkey Hacker Team Project   
+
+Your list: Traceback (most recent call last):
+  File "/root/blackspider-shell/Pegasusv2/a.py", line 67, in <module>
+    sr = input("Your list: ")
+OSError: [Errno 9] Bad file descriptor

